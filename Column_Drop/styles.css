@@ -1,0 +1,70 @@
+/*
+      These are the default styles. No need to change these.
+      */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.box {
+    min-height: 150px;
+    color: #efefef;
+}
+
+.dark_blue {
+    background-color: #2A457A;
+}
+
+.light_blue {
+    background-color: #099DD9;
+}
+
+
+
+/*
+            These are the responsive styles. Throw some breakpoints in here!
+            */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box {
+    width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+    .dark_blue {
+        width: 25%;
+    }
+    .light_blue {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .container {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dark_blue, .green {
+        width: 25%;
+    }
+    .light_blue {
+        width: 50%;
+    }
+}
+

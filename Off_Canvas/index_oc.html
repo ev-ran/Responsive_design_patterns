@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off Canvas</title>
+    <link rel="stylesheet" href="style_oc.css">
+    
+</head>
+
+<body>
+
+    <nav id="drawer" class="dark_blue">
+        <div id="mySidenav" class="sidenav">
+            <a class="closebtn" style="font-size:30px;cursor:pointer" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+
+    <main class="light_blue">
+        <h1>Off Canvas</h1>
+        <menu>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                &#9776; open
+            </span>
+        </menu>
+    </main>
+    <script>
+        function openNav() {
+            document.getElementById('drawer').style.transform = "translate(0, 0)";
+        }
+        function closeNav() {
+            document.getElementById('drawer').style.transform = "translate(-300px, 0)";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

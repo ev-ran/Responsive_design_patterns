@@ -42,6 +42,7 @@ These are the responsive styles. Throw some breakpoints in here!
 
 .container {
     width: 100%;
+    height: 300px;
     display: flex;
     flex-flow: row wrap;
 }

@@ -57,7 +57,7 @@ article {
   flex-direction: column;
 }
 
-@media (min-width: 580px) {
+@media screen and (min-width: 580px) {
   .container {
     width: 100%;
     display: flex;
@@ -103,7 +103,7 @@ article {
   }
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .container {
     width: 100%;
     display: flex;
